@@ -57,6 +57,10 @@
 					</section>
 
 					<section>
+							<video data-autoplay src="img/video.mp4"></video>
+					</section>
+
+					<section>
 						<section><img data-src="img/00001.jpg"></section>	
 						<h2>Boletos</h2>
 					</section>
@@ -65,13 +69,23 @@
 							<img data-src="img/dominar.jpg">
 					</section>
 
-					<section>
-							<img data-src="img/ghandi.jpg">
-					</section>
+					<section data-markdown>
+						<textarea data-template>
+							## Page title
+					
+							A paragraph with some text and a [link](http://hakim.se).
+							
 
-					<section>
-							<h1>video ?</h1>
-					</section>
+						</textarea>
+
+						<!-- * Adaptei meu objetivo para mudar o mundo a minha volto(e hoje estou aqui realizando esse sonho)
+						* Nessa época jogava LOL no computador comprando em 24x na leve pelo meu irmão
+						* E por culpa da minha mãe, por ela não ter dinheiro para arrumar o meu computador que custava R$ 80 nessa época						 -->
+						<aside class="notes">
+							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+						</aside>
+				</section>
+
 				</section>
 
 
@@ -181,7 +195,10 @@ Mulheres na tecnologia -->
 				margin: 0.1,
 
 				minScale: 0.2,
-				maxScale: 1.5
+				maxScale: 1.5,
+
+				autoPlayMedia: null,
+		
 			});
 		</script>
 	</body>
